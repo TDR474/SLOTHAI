@@ -45,7 +45,7 @@ import { useState } from 'react';
         <div className="header">
 
           <div className="header-title">
-            <h1>Sloth AI</h1>
+            <h1>Sloth AI🦥</h1>
           </div>
 
 
