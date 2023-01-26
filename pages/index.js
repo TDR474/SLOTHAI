@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import buildspaceLogo from '../assets/buildspace-logo.png';
+import slothlogo from '../assets/king_the_sloth.jpg';
 import { useState } from 'react';
 
 
@@ -43,7 +44,14 @@ import { useState } from 'react';
       <div className="container">
         <div className="header">
 
+          <div className="header-title">
+            <h1>Sloth AI</h1>
+          </div>
 
+
+          <div Classname= "header-subtitle">
+            <h2>FOR HOMEWORK HACKS</h2>
+          </div>
         </div>
 
         <div className="prompt-container">
@@ -78,7 +86,10 @@ import { useState } from 'react';
           </div>
         )}
         </div>
+        <Image src={slothlogo} width={350} height={500} alt="king_the_sloth" />
       </div>
+      
+
 
 
 
@@ -90,7 +101,7 @@ import { useState } from 'react';
         >
           <div className="badge">
             <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>built by </p>
+            <p>built by yzy</p>
           </div>
         </a>
       </div>
