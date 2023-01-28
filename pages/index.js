@@ -52,13 +52,13 @@ import { useState } from 'react';
 
 
           <div Classname= "header-subtitle">
-            <h2>FOR HOMEWORK HACKS</h2>
+            <h2>YOUR PERSONAL ASSISTANT</h2>
           </div>
         </div>
 
         <div className="prompt-container">
           <textarea
-            placeholder="start typing here"
+            placeholder="Please ask me any thing"
             className="prompt-box"
             value={userInput}
             onChange={onUserChangedText}
@@ -105,7 +105,7 @@ import { useState } from 'react';
         >
           <div className="badge">
             <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>built by yzy</p>
+            <p>built by a human</p>
           </div>
         </a>
       </div>
