@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 import buildspaceLogo from '../assets/buildspace-logo.png';
 import slothlogo from '../assets/king_the_sloth.jpg';
+import dummy1 from '../assets/king.png';
+import dummy2 from '../assets/houdsont.jpg';
 import { useState } from 'react';
 
 
@@ -87,6 +89,8 @@ import { useState } from 'react';
         )}
         </div>
         <Image src={slothlogo} width={350} height={500} alt="king_the_sloth" />
+        <Image src={dummy1} width={50} height={50} alt="king.png" />
+        <Image src={dummy2} width={50} height={50} alt="houdsont.jpg" />
       </div>
       
 

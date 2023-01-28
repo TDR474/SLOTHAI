@@ -11,11 +11,12 @@ const basePromptPrefix = "";
 const generateAction = async (req, res) => {
   // Run first prompt
   console.log(`API: ${basePromptPrefix}${req.body.userInput}`)
-
+//text-davinci-003
+//a piece of scrap
   const baseCompletion = await openai.createCompletion({
-    model: 'text-davinci-003',
+    model: "text-davinci-003",
     prompt: `${basePromptPrefix}${req.body.userInput}`,
-    temperature: 0.5,
+    temperature: 0.7,
     max_tokens: 250,
   });
   
